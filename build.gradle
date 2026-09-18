@@ -19,10 +19,6 @@ configurations {
     }
 }
 
-repositories {
-    mavenCentral()
-}
-
 ext {
     set('springCloudVersion', "2023.0.3")
 }
