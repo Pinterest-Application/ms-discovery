@@ -1,3 +1,7 @@
+logging:
+  level:
+    org.springframework: DEBUG
+
 spring:
   application:
    name: ms-discovery
@@ -15,7 +19,3 @@ eureka:
         defaultZone: ${eureka-server}
   instance:
     prefer-ip-address: true
-
-logging:
-  level:
-    org.springframework: DEBUG
